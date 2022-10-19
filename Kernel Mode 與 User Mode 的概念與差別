@@ -1,0 +1,13 @@
+ ##Kernel mode 與 User mode 概念
+   #kernel mode
+    -一般是使用 'ring 0' 做為 Kernel mode。
+    -'ring 0' 擁有'最多的特權'，可以直接操縱所有的硬體，包括可以存取所有的實體記憶體 位址、處理鍵盤中斷..等。
+   #User mode
+    -一般是使用 'ring 3' 做為 User mode。
+    -所有存取記憶體的行為都會有邊界檢查(用硬體實作的，所以很快)。
+    -很多 ring 0 專用的指令也都不能執行。
+   #Different point
+    -只要是 CPU 能管的硬體，Kernel mode 的程式就可以透過 machine code 來操作該硬體。
+    -User mode 基本上就是「受限」的模式。除了一些沒有傷害的行為之外什麼都不能做。
+    -前者使用ring 0;後者使用ring 3。 
+ ##Privileged instruction（特權指令）
