@@ -1,0 +1,33 @@
+''''''
+##平台(piatform)
+
+It is an environment in which a piece of software is executed. 
+它是執行軟件的環境。
+
+It may be the hardware or the operating system (OS), even a web browser and associated application programming interfaces, or other underlying software, as long as the program code is executed with it.
+它可能是硬件或操作系統，甚至是網絡瀏覽器和相關的應用程序編程接口，或其他底層軟件，只要程序代碼是用它執行的。
+
+Computing platforms have different abstraction levels.
+計算平台具有不同的抽象級別。
+
+A platform can be seen both as a constraint on the software development process and as an assistant to the development process.
+一個平台可以看作是對軟件開發過程的約束和助手。
+
+They provide low-level functionality ready-made.For example,  an OS may be a platform that provides a generic command for saving files or accessing the network.
+它們提供了現成的低級功能，例如:操作系統可能是一個平台，它提供了一個通用的命令來保存文件或訪問網絡。
+
+''''''
+##軟體即服務（Software as a Service, SaaS）
+
+Software as a service is a software licensing (許可) and delivery model (交付模式) in which software is licensed on a subscription basis (準則) and is centrally (主要地) hosted (主人).
+軟體即服務 讓使用者可透過網際網路連接到雲端式應用程式並加以使用。
+
+SaaS apps are typically (典型地) accessed by users a web browser (a thin client). 
+
+SaaS is considered to be part of cloud computing.
+軟體即服務被視為雲端運算的一部份。
+
+SaaS became a common delivery model for many business applications, including office software, messaging software.
+
+''''''
+##
